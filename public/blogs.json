@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "title": "The Secret Garden",
+      "cover": "https://i.ibb.co/cxTP482/anete-lusina-zws-Hjak-E-i-I-unsplash.jpg",
+      "author": "Frances Hodgson Burnett",
+      "author_img": "https://i.ibb.co/r6mDQxr/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
+      "posted_date": "April 1, 2024",
+      "reading_time": 45,
+      "hashtags": [" fiction", " #classics", " #gardening"]
+    },
+    {
+      "id": 2,
+      "title": "Journey to the Center of the Earth",
+      "cover": "https://i.ibb.co/jR6ywpk/brooke-cagle-WHWYBmtn3-0-unsplash.jpg",
+      "author": "Jules Verne",
+      "author_img": "https://i.ibb.co/mGLrb9B/janko-ferlic-G-jo31-ESu-RE-unsplash.jpg",
+      "posted_date": "March 29, 2024",
+      "reading_time":15,
+      "hashtags": [" adventure", "# science fiction", " #classics"]
+    },
+    {
+      "id": 3,
+      "title": "The Great Gatsby",
+      "cover": "https://i.ibb.co/R4XbRxn/dariusz-sankowski-3-Oi-YMg-DKJ6k-unsplash.jpg",
+      "author": "F. Scott Fitzgerald",
+      "author_img": "https://i.ibb.co/bPwzGXc/jonas-kakaroto-KIPqvv-TOC1s-unsplash.jpg",
+      "posted_date": "March 25, 2024",
+      "reading_time":50,
+      "hashtags": [" fiction", " #classics", " #1920s"]
+    },
+    {
+      "id": 4,
+      "title": "Pride and Prejudice",
+      "cover": "https://i.ibb.co/1QBH7HC/john-schnobrich-2-FPjl-Ay-MQTA-unsplash.jpg",
+      "author": "Jane Austen",
+      "author_img": "https://i.ibb.co/Gt9LzgS/ludovic-migneault-EZ4-TYg-XPNWk-unsplash.jpg",
+      "posted_date": "March 20, 2024",
+      "reading_time": 60,
+      "hashtags": [" romance", " #classics", " #19th century"]
+    },
+    {
+      "id": 5,
+      "title": "To Kill a Mockingbird",
+      "cover": "https://i.ibb.co/C9gfrTx/kyle-glenn-AR74-Eo-Wdy0-unsplash.jpg",
+      "author": "Harper Lee",
+      "author_img": "https://i.ibb.co/mGLrb9B/janko-ferlic-G-jo31-ESu-RE-unsplash.jpg",
+      "posted_date": "March 15, 2024",
+      "reading_time": 55,
+      "hashtags": [" fiction", " #classics", " #racism"]
+    }
+  ]
+  
