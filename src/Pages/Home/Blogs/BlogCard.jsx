@@ -1,10 +1,11 @@
 
+import PropTypes from 'prop-types';
 import { LuBookmark } from "react-icons/lu";
 
 
 const BlogCard = ({ Blog, handlerBookMarks }) => {
-    const { id, title, cover, author, author_img, posted_date, reading_time, hashtags } = Blog;
-    console.log(title);
+    const { title, cover, author, author_img, posted_date, reading_time, hashtags } = Blog;
+    
 
     return (
         <div>
@@ -28,7 +29,7 @@ const BlogCard = ({ Blog, handlerBookMarks }) => {
                       
                     <p className="block items-center font-sans antialiased text-gray-500 font-semibold  leading-relaxed ">
                      {reading_time} min raed
-                    <button onClick={handlerBookMarks} className="ml-3 text-sky-500"><LuBookmark></LuBookmark> </button>
+                    <button onClick={()=>handlerBookMarks(Blog)} className="ml-3 text-sky-500"><LuBookmark></LuBookmark> </button>
                     </p>
                 </div>
                 <div className="ml-8">
@@ -42,6 +43,20 @@ const BlogCard = ({ Blog, handlerBookMarks }) => {
             </div>
         </div>
     );
+};
+
+BlogCard.propTypes = {
+    Blog: PropTypes.shape({
+        id: PropTypes.number.isRequired,
+        title: PropTypes.string.isRequired,
+        cover: PropTypes.string.isRequired,
+        author: PropTypes.string.isRequired,
+        author_img: PropTypes.string.isRequired,
+        posted_date: PropTypes.string.isRequired,
+        reading_time: PropTypes.string.isRequired,
+        hashtags: PropTypes.arrayOf(PropTypes.string).isRequired
+    }).isRequired,
+    handlerBookMarks: PropTypes.func.isRequired
 };
 
 export default BlogCard;

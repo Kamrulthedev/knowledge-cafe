@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import BlogCard from "./BlogCard";
+import PropTypes from 'prop-types';
 
 
 
@@ -21,6 +22,9 @@ const Blogs = ({handlerBookMarks}) => {
                 }
         </div>
     );
+};
+Blogs.propTypes = {
+    handlerBookMarks: PropTypes.func.isRequired
 };
 
 export default Blogs;
