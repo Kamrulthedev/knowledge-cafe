@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 
 
-const Blogs = ({handlerBookMarks}) => {
+const Blogs = ({handlerBookMarks, handlerReadingTime}) => {
     const [Blogs, setBlogs] = useState([]);
 
     useEffect(() => {
@@ -18,7 +18,7 @@ const Blogs = ({handlerBookMarks}) => {
 
 
                 {
-                  Blogs.map(Blog => <BlogCard key={Blog.id} Blog={Blog} handlerBookMarks={handlerBookMarks}></BlogCard>)
+                  Blogs.map(Blog => <BlogCard key={Blog.id} Blog={Blog} handlerBookMarks={handlerBookMarks} handlerReadingTime={handlerReadingTime}></BlogCard>)
                 }
         </div>
     );
