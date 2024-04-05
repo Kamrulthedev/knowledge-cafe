@@ -4,7 +4,7 @@ import { LuBookmark } from "react-icons/lu";
 
 
 const BlogCard = ({ Blog, handlerBookMarks, handlerReadingTime }) => {
-    const { title, cover, author, author_img, posted_date, reading_time, hashtags } = Blog;
+    const {id, title, cover, author, author_img, posted_date, reading_time, hashtags } = Blog;
     
 
     return (
@@ -37,7 +37,7 @@ const BlogCard = ({ Blog, handlerBookMarks, handlerReadingTime }) => {
                         {title}
                     </h4>
                     <p>#{hashtags}</p>
-                  <button onClick={()=> handlerReadingTime(reading_time)} className="underline p-3 text-blue-600">Mark as read</button>
+                  <button onClick={()=> handlerReadingTime(id,reading_time)} className="underline p-3 text-blue-600">Mark as read</button>
                 </div>
                 <div className="divider"></div>
             </div>
